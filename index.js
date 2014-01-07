@@ -8,5 +8,5 @@ requirejs.config(
 });
 
 requirejs(['appHost', 'modules/mostPopular'], function(appHost){
-	appHost.listen(8888);
+	appHost.listen(process.env.PORT || 5000);
 });

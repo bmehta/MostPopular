@@ -1,0 +1,32 @@
+{
+  "name": "MostPopular",
+  "version": "0.0.1",
+  "description": "Most Popular Feed For Broadcast Using Chartbeat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alon85/MostPopular.git"
+  },
+  "keywords": [
+    "MostPopular",
+    "ChartBeat"
+  ],
+  "author": "Alon Motro",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/alon85/MostPopular/issues"
+  },
+  "homepage": "https://github.com/alon85/MostPopular",
+  "dependencies": {
+    "express": "~3.4.7",
+    "require": "~0.5.0",
+    "request": "~2.30.0",
+    "xml2js": "~0.4.1",
+    "requirejs": "~2.1.9",
+    "config-heroku": "~0.1.1-a",
+    "config": "~0.4.34"
+  }
+}

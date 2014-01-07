@@ -8,7 +8,7 @@ define(['appHost', 'utilities/serviceTools'], function(appHost, serviceTools) {
 				var parser = new serviceTools.xml2js.Parser({explicitArray: false, ignoreAttrs: true});
 				parser.parseString(body, function(err, result){
 					res.send(JSON.stringify(result));
-					console.log(JSON.stringify(serviceTools.config));
+					console.log("CONFIG VALUE:" + JSON.stringify(serviceTools.config));
 				});
 			});
 		});

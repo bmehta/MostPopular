@@ -1,6 +1,6 @@
 {
     "Settings": {
-        "GetMobileAssetById": "http://api-internal.usatoday.com/MobileServices/MArticleService.svc/mcontent/v1/contents/{0}",
-        "GetMostPopular": "http://api.chartbeat.com/live/toppages/v3/?apikey=9a076d4a3db94c8333ce2743f1d02692&host={0}&section={1}&sort_by={2}"
+        "GetMobileAssetById": "http://api-internal.usatoday.com/MobileServices/MArticleService.svc/mcontent/v1/contents/{%s}",
+        "GetMostPopular": "http://api.chartbeat.com/live/toppages/v3/?apikey=9a076d4a3db94c8333ce2743f1d02692&host={%s}&section={%s}&sort_by={%s}"
     }
 }

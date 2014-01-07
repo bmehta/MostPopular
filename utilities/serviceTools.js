@@ -1,8 +1,9 @@
-define(['xml2js', 'request', 'config'], function(xml2js, request, config) {
+define(['xml2js', 'request', 'config', 'util'], function(xml2js, request, config, util) {
 	var serviceTools = {
 		xml2js:xml2js,
 		request:request,
-		config:config.Settings
+		config:config.Settings,
+		util:util
 	};
 
 	return serviceTools;
